@@ -70,3 +70,65 @@ footer {
     bottom: 0;
     width: 100%;
 }
+#gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.image-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center the images in the row */
+    margin-bottom: 20px;
+}
+
+.image {
+    width: 800px; /* Set the width of the image container */
+    height: 500px; /* Set the height of the image container */
+    margin: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    border-radius: 5px;
+    overflow: hidden; /* Ensure the image does not exceed the container */
+    position: relative; /* Needed for positioning the download button */
+    display: flex;
+    justify-content: center; /* Center the content horizontally */
+    align-items: center; /* Center the content vertically */
+}
+
+.image img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s ease; /* Add a transition effect for the transform */
+    cursor: pointer; /* Optional: Changes the cursor to indicate the image can be interacted with */
+}
+
+.image:hover img {
+    transform: scale(1.1); /* Scale up the image on hover */
+}
+
+
+@media (max-width: 600px) {
+    .image-row {
+        flex-direction: column;
+    }
+}
+.download-button {
+    position: absolute; /* Position the download button within the image container */
+    bottom: 10px; /* Position the button at the bottom of the container */
+    left: 50%; /* Center the button horizontally */
+    transform: translateX(-50%); /* Adjust the centering of the button */
+    display: inline-block;
+    background-color: #5643fa; /* Or any color that fits your design */
+    color: #fff;
+    padding: 8px 12px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: background-color 0.3s;
+}
+
+.download-button:hover {
+    background-color: #4230d8; /* Darker shade for hover effect */
+}
