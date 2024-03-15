@@ -1,0 +1,20 @@
+{
+   "action": {
+      "default_popup": "index.html",
+      "default_title": "Boxel 3D"
+   },
+   "description": "Boxel 3D is the 3rd release of your favorite box jumping game made by the developers of Boxel Rebound.",
+   "differential_fingerprint": "1.3e8f5b1b58198b2ef255f5cb3ad69adf21cec3d83e7e59a5d8ccea2424549969",
+   "icons": {
+      "128": "img/png/icon128.png",
+      "16": "img/png/icon16.png",
+      "32": "img/png/icon32.png",
+      "48": "img/png/icon48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAhMTfULqpeJHWuNK+laOMiTaDWPoU7vKt6lK77peNX7duvLy5souC8IowS+YbywdWyEr3880DtEM9szyOkBDIl3b0l67nNtQxWrZiWPbjKrDsHcIU7aE9Q/Vp0gEdrAje7Ip+4FJVb6jAv4k0KOLuZCODV3QPK6eoQl3LxmbqkvuCY7HH+5EM95mBk+uZzC5erCzn7O8rIHOYzt09jAecw3r73xL22n/LCONTUcaWTacYivKGeLL2+4N+UJ7ZfzR9FZxRnquznXjju+NEDbs9+rVMMUpJalSJgJ3GbvlFx+i966rMN2Z7FRhKW6Yx4JacQcRi0jU5XkXTgBrtUdhJgQIDAQAB",
+   "manifest_version": 3,
+   "name": "Boxel 3D",
+   "permissions": [ "storage" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.2.1"
+}
