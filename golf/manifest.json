@@ -1,0 +1,17 @@
+{
+   "action": {
+      "default_popup": "index.html",
+      "default_title": "Boxel Golf"
+   },
+   "description": "Boxel Golf is a multiplayer golf game packed with challenging courses, custom hats, and a powerful level builder.",
+   "icons": {
+      "128": "img/png/icon128.png",
+      "16": "img/png/icon16.png",
+      "48": "img/png/icon48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAi8rxLcga2lLUQG+gVgRAU7OcaFJ7AWs6lNk/MgZHxki9HTbc3G9+evEvmXobUQEgDbj9ohNT5AL7MOkHhr9+eoMhjmtRQSQIvpZOQ7aw4IAMXjVPinNX/Nac98AY5OhzWyhtJ2q+J0PpJ1Y4+cenKZhAIaOpJVhQ/HilujCFY2dIFmRP0SN8mPYw4LaeWBL7kRMdWSpadG5h2TsYa+d7e+bDNTkYDJsUJeZaqSRDn7sNt6w42hiWjX0hH3531Ms2DK9/x5WmPhh1Y0kTQffxgLBan00Mk+YmTsLEn62hO5QpXCZImFbvG1OENN9x7m7f2T1Xl9xu9fXBT04bid+ugQIDAQAB",
+   "manifest_version": 3,
+   "name": "Boxel Golf",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.3.5.3"
+}
