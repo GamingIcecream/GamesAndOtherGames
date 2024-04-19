@@ -1,0 +1,22 @@
+Tetris
+
+(C) 1987 by Mirrorsoft and Andromeda Software Ltd.
+Published by Spectrum Holobyte
+
+Graphics    : Hercules (Resident Tetris), CGA, EGA, Tandy
+Sound       : PC
+Input Device: Keyboard (Keypad), Joystick
+
+F1          : Help
+F2          : Statistics
+F3          : Show Level
+F4          : Description of Picture
+R           : Reset Highscore (Level Selection Screen)
+P           : Pause Game
+Q           : Quit
+S           : Sound On/Off
+Escape      : Boss Key
+
+Resident Tetris Parameter: 0, 1, 2, ..., 9 - Background File BKGR?
+                           H               - CGA-Emulation on Hercules
+                           R               - Remove from Memory
