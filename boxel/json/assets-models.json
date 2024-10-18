@@ -1,0 +1,44 @@
+{
+  "background-tropic": {
+    "url": "../glb/background-tropic.glb"
+  },
+  "cube-bounce": {
+    "url": "../glb/cube-bounce.glb"
+  },
+  "cube-checkpoint": {
+    "url": "../glb/cube-checkpoint.glb"
+  },
+  "cube-control": {
+    "url": "../glb/cube-control.glb"
+  },
+  "cube-cube": {
+    "url": "../glb/cube-cube.glb"
+  },
+  "cube-direction": {
+    "url": "../glb/cube-direction.glb"
+  },
+  "cube-finish": {
+    "url": "../glb/cube-finish.glb"
+  },
+  "cube-grapple": {
+    "url": "../glb/cube-grapple.glb"
+  },
+  "cube-gravity": {
+    "url": "../glb/cube-gravity.glb"
+  },
+  "cube-player": {
+    "url": "../glb/cube-player.glb"
+  },
+  "cube-reset": {
+    "url": "../glb/cube-reset.glb"
+  },
+  "cube-resize": {
+    "url": "../glb/cube-resize.glb"
+  },
+  "cube-spike": {
+    "url": "../glb/cube-spike.glb"
+  },
+  "cube-tip": {
+    "url": "../glb/cube-tip.glb"
+  }
+}
