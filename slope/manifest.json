@@ -1,0 +1,27 @@
+{
+   "action": {
+      "default_icon": "icon/32.png",
+      "default_title": "Slope Game"
+   },
+   "background": {
+      "service_worker": "service_worker.js"
+   },
+   "content_security_policy": {
+      "sandbox": "sandbox allow-scripts; script-src 'self' 'unsafe-eval' blob: 'unsafe-inline'; object-src 'self' 'unsafe-eval'; script-src-elem 'self' 'unsafe-eval' 'unsafe-inline'"
+   },
+   "default_locale": "en",
+   "description": "__MSG_description__",
+   "icons": {
+      "128": "icon/128.png",
+      "32": "icon/32.png",
+      "48": "icon/48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAiYFyexPSXXJxjLWlqTtqWy54WBFBAiFOXEniljg7+rtA4gtJ34kYu4auI61Yw+rrGk+qcjhWPP8grYPcgF+Kcb5c45N9r1jELol/ReCuGRxnOKl8eYniHgVvPWso408hx5T8mibE6iRY48MU7nhbKdZrgu0pbSuAnm8Ef6S+yBCP2bxzVYp/g66eqUQxGhHE5XBF6b80DiqiifVH6FZO3RmyyrgEmbt6nNQoxYHSZ7AbYUC6RTvn2j0FujWf4icgxIiB1WHtglRDRVBpVi45InaegMO68vHFBXU+qxsSjU2yE9hX7Sla0zBLMKm+IHgq6En//wezTvIVasSpK7zO6QIDAQAB",
+   "manifest_version": 3,
+   "name": "__MSG_name__",
+   "sandbox": {
+      "pages": [ "slope.html" ]
+   },
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.1"
+}
